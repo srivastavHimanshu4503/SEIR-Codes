@@ -1,1 +1,4 @@
 './Chapter Notes/*.pdf'
+__pycache__/
+*.py[cod]
+*$py.class
