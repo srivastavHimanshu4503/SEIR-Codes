@@ -1,8 +1,8 @@
-from web_crawler import WebCrawlerClient
-from web_parser import WebPageParser
-from collections import defaultdict
+from Project_1.web_crawler import WebCrawlerClient
+from Project_1.web_parser import WebPageParser
 import sys
 import re
+from collections import defaultdict
 
 class WebDocumentMatcher:
 
@@ -84,7 +84,7 @@ class WebDocumentMatcher:
 
         print(f"'{url_1}' fingerprint: {bin(fingerprint_1)}")
         print(f"'{url_2}' fingerprint: {bin(fingerprint_2)}")
-        print(f"Commonbits: {commonBits}")
+        print(f"Common Bits: {commonBits}")
 
 if __name__ == "__main__":
     WebDocumentMatcher().main()
